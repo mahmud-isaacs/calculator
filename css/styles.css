@@ -39,10 +39,11 @@ body {
     cursor: pointer;
     outline: none;
     background-color: #e0e0e0;
+    box-shadow: 2px 5px 8px black;
 }
 
 .button:hover {
-    background-color: #d0d0d0;
+    background-color: darkgrey;
 }
 
 .button.press {
@@ -51,5 +52,5 @@ body {
 }
 
 .button.press:hover {
-    background-color: steelblue
+    background-color: darkslategrey
 }
