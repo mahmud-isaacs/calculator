@@ -18,7 +18,7 @@ body {
     grid-gap: 5px;
 }
 
-.display {
+#display {
     grid-column: span 4;
     height: 60px;
     font-size: 24px;
@@ -29,7 +29,7 @@ body {
     border-radius: 5px;
 }
 
-.button {
+.value, .button {
     width: 60px;
     height: 60px;
     font-size: 18px;
@@ -41,16 +41,48 @@ body {
     background-color: #e0e0e0;
     box-shadow: 2px 5px 8px black;
 }
+ .button.equal{
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    background-color: #e0e0e0;
+    box-shadow: 2px 5px 8px black;
+ }
+
+
 
 .button:hover {
     background-color: darkgrey;
 }
+.value:hover {
+    background-color: darkgrey;
+}
 
-.button.press {
+.button.add, .button.equal, .button.subtract, .button.division, .button.multiply,  .button.clear{
     background-color: steelblue;
     color: #fff;
 }
 
-.button.press:hover {
+.button.add:hover {
+    background-color: darkslategrey
+}
+.button.subtract:hover {
+    background-color: darkslategrey
+}
+.button.division:hover {
+    background-color: darkslategrey
+}
+.button.multiply:hover {
+    background-color: darkslategrey
+}
+.button.clear:hover {
+    background-color: darkslategrey
+}
+.button.equal:hover {
     background-color: darkslategrey
 }
